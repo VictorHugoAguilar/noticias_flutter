@@ -2,15 +2,19 @@
 
 Aplicación Noticias, una app sencilla para consumir de la api
 las noticias, en la primer tab obtenemos noticias generales, en el sengudo tab
-tenemos noticias clasificadas por categorias
+tenemos noticias clasificadas por categorias.
 
 ## Principal
 
 ![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/VictorHugoAguilar/noticias_flutter/main/assets/img/PreviewImagenPrincipal.png)
 
+(Imagen sacada del emulador levantado para el diseño de la app con flutter.)
+
 ## Clasificadas
 
 ![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/VictorHugoAguilar/noticias_flutter/main/assets/img/PreviewImagenCategorias.png)
+
+(Imagen sacada del emulador levantado para el diseño de la app con flutter.)
 
 ## Getting Started
 
