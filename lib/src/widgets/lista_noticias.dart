@@ -93,10 +93,17 @@ class _TarjetaImagen extends StatelessWidget {
         child: Container(
           child: (noticia.urlToImage != null)
               ? FadeInImage(
-                  image: NetworkImage(noticia.urlToImage),
-                  placeholder: AssetImage('assets/img/giphy.gif'),
+                  image: NetworkImage(
+                    noticia.urlToImage,
+                  ),
+                  placeholder: AssetImage(
+                    'assets/img/giphy.gif',
+                  ),
                 )
-              : Image(image: AssetImage('assets/img/no-image.png')),
+              : Image(
+                  image: AssetImage(
+                  'assets/img/no-image.png',
+                )),
         ),
       ),
     );
@@ -114,7 +121,10 @@ class _TarjetaTitulo extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: 15.0),
       child: Text(
         noticia.title,
-        style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.w200),
+        style: TextStyle(
+          fontSize: 20.0,
+          fontWeight: FontWeight.w200,
+        ),
       ),
     );
   }
